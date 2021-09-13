@@ -1,0 +1,23 @@
+﻿remove_title_prefix_remove_prefix = {
+	scope = title
+
+	effect = {
+		hidden_effect = {
+			root = {
+				set_definitive_form = yes
+			}
+		}
+	}
+}
+
+remove_title_prefix_restore_prefix = {
+	scope = title
+
+	effect = {
+		hidden_effect = {
+			root = {
+				set_definitive_form = no
+			}
+		}
+	}
+}
