@@ -4,5 +4,5 @@ tags={
 	"Utilities"
 	"Map"
 }
-name="Remove Title Prefix"
+name="Remove Title Tier Prefix"
 supported_version="1.4.4"
