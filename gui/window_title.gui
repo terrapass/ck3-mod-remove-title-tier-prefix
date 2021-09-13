@@ -141,10 +141,18 @@ window = {
 
 									button_edit_text = {
 										datacontext = "[GetScriptedGui('remove_title_prefix_remove_prefix')]"
-										visible = "[TitleViewWindow.GetTitle.CanPlayerRenameTitle]"
+										visible = "[And( TitleViewWindow.GetTitle.CanPlayerRenameTitle, Not( EqualTo_string(TitleViewWindow.GetTitle.GetNameNoTooltip, TitleViewWindow.GetTitle.GetBaseNameNoTierNoTooltip) ) )]"
 										onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( TitleViewWindow.GetTitle.MakeScope ).End )]"
-										tooltip = "REMOVE_TITLE_PREFIX_TOGGLE_BUTTON_TOOLTIP"
-										texture = "gfx/interface/icons/flat_icons/feudal_contract.dds"
+										tooltip = "REMOVE_TITLE_PREFIX_REMOVE_TOOLTIP"
+										texture = "gfx/interface/icons/flat_icons/find_title_flip_h.dds"
+									}
+
+									button_edit_text = {
+										datacontext = "[GetScriptedGui('remove_title_prefix_restore_prefix')]"
+										visible = "[And( TitleViewWindow.GetTitle.CanPlayerRenameTitle, EqualTo_string(TitleViewWindow.GetTitle.GetNameNoTooltip, TitleViewWindow.GetTitle.GetBaseNameNoTierNoTooltip) )]"
+										onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( TitleViewWindow.GetTitle.MakeScope ).End )]"
+										tooltip = "REMOVE_TITLE_PREFIX_RESTORE_TOOLTIP"
+										texture = "gfx/interface/icons/flat_icons/find_title.dds"
 									}
 
 									expand = {}
