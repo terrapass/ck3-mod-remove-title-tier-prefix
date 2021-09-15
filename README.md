@@ -1,5 +1,8 @@
+<a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2601437909"><img src="https://img.shields.io/endpoint.svg?url=https%3A%2F%2Fshieldsio-steam-workshop.jross.me%2F2601437909&style=for-the-badge" alt="Steam Workshop subscribers"></a>
+
 Remove Title Tier Prefix (Toggle Short Name)
 ============================================
+_(a Crusader Kings III mod)_
 
 <img src="https://raw.githubusercontent.com/terrapass/ck3-mod-remove-title-tier-prefix/master/thumbnail.png" alt="Mod Thumbnail" width="250" height="250" />
 
