@@ -19,7 +19,7 @@ Should be compatible with any mod that does not modify title UI.
 
 **Compatible** with the following mods:
 * [Title Manager](https://steamcommunity.com/sharedfiles/filedetails/?id=2436624088) by Xman7373.
-* [Randomized CoA](https://steamcommunity.com/sharedfiles/filedetails/?id=2530900869) by Degreeno.
+* [Randomize CoA](https://steamcommunity.com/sharedfiles/filedetails/?id=2530900869) by Degreeno.
 
 
 Under the hood
