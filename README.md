@@ -17,7 +17,7 @@ In the meantime, this mod provides a solution for the current version of the gam
 **Compatible** with existing saves and can be removed without breaking saves (though note that changes made to tier prefix visibility will remain in your save even after mod removal).
 Should be compatible with any mod that does not modify title UI.
 
-**Now compatible** with [Title Manager](https://steamcommunity.com/sharedfiles/filedetails/?id=2436624088) mod by Xman7373. (Title Manager must be placed after this mod in the load order.)
+**Now compatible** with [Title Manager](https://steamcommunity.com/sharedfiles/filedetails/?id=2436624088) mod by Xman7373.
 
 Currently **incompatible** with Randomized CoA mod.
 
