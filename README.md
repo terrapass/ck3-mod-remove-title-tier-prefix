@@ -4,7 +4,7 @@ Remove Title Tier Prefix (Toggle Short Name)
 ============================================
 _(a Crusader Kings III mod)_
 
-<img src="https://raw.githubusercontent.com/terrapass/ck3-mod-remove-title-tier-prefix/master/thumbnail.png" alt="Mod Thumbnail" width="250" height="250" />
+<img src="https://raw.githubusercontent.com/terrapass/ck3-mod-remove-title-tier-prefix/master/mod/thumbnail.png" alt="Mod Thumbnail" width="250" height="250" />
 
 This small mod allows you to remove or restore tier prefix (e.g. "Empire of") for any title you hold. This means you can get more creative with naming your titles without running into "Kingdom of Some Kingdom" and other such repetitions.
 
