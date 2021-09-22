@@ -1,3 +1,2 @@
-promo/screenshot.pdn filter=lfs diff=lfs merge=lfs -text
-promo/thumbnail.pdn filter=lfs diff=lfs merge=lfs -text
+promo/*.pdn filter=lfs diff=lfs merge=lfs -text
 promo/*.png filter=lfs diff=lfs merge=lfs -text
