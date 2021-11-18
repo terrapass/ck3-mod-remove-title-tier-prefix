@@ -1,3 +1,10 @@
+template "RTTP_onrightclick_cycle_definite_article" {
+	button_ignore = none
+
+	onrightclick = "[GetScriptedGui('RTTP_cycle_definite_article').Execute( GuiScope.SetRoot( TitleViewWindow.GetTitle.MakeScope ).AddScope('initial_article_index', MakeScopeValue(Select_CFixedPoint(EqualTo_string(TitleViewWindow.GetTitle.GetPrefix, ''), '(CFixedPoint)4', '(CFixedPoint)0'))).AddScope('max_article_index', MakeScopeValue('(CFixedPoint)4')).End )]"
+	#onrightclick = "[ScriptedGui.Execute( GuiScope.SetRoot( TitleViewWindow.GetTitle.MakeScope ).End )]"
+}
+
 template "remove_title_prefix_toggle" {
 	hbox = {
 		# Compatibility measure for "Custom Title Form of Address"
@@ -9,6 +16,8 @@ template "remove_title_prefix_toggle" {
 			onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( TitleViewWindow.GetTitle.MakeScope ).End )]"
 			tooltip = "REMOVE_TITLE_PREFIX_REMOVE_TOOLTIP"
 			texture = "gfx/interface/icons/flat_icons/find_title_flip_h.dds"
+
+			using = RTTP_onrightclick_cycle_definite_article
 		}
 
 		button_edit_text = {
@@ -17,6 +26,8 @@ template "remove_title_prefix_toggle" {
 			onclick = "[ScriptedGui.Execute( GuiScope.SetRoot( TitleViewWindow.GetTitle.MakeScope ).End )]"
 			tooltip = "REMOVE_TITLE_PREFIX_RESTORE_TOOLTIP"
 			texture = "gfx/interface/icons/flat_icons/find_title.dds"
+
+			using = RTTP_onrightclick_cycle_definite_article
 		}
 	}
 }

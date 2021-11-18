@@ -1,0 +1,4 @@
+﻿l_french:
+ # No definite articles for titles in French, since vanilla doesn't use any
+ RTTP_DEFINITE_ARTICLE_MAX_INDEX:0 "(int32)0"
+ RTTP_DEFINITE_ARTICLE_0:0 ""

@@ -2,11 +2,7 @@
 	scope = title
 
 	effect = {
-		hidden_effect = {
-			root = {
-				set_definitive_form = yes
-			}
-		}
+		set_definitive_form = yes
 	}
 }
 
@@ -14,10 +10,56 @@ remove_title_prefix_restore_prefix = {
 	scope = title
 
 	effect = {
-		hidden_effect = {
-			root = {
-				set_definitive_form = no
-			}
+		set_definitive_form = no
+	}
+}
+
+RTTP_cycle_definite_article = {
+	scope = title
+
+	saved_scopes = {
+		initial_article_index
+		max_article_index
+	}
+
+	effect = {
+
+		set_title_prefix = RTTP_DEFINITE_ARTICLE_1
+		# if = {
+		# 	limit = {
+		# 		{ has_variable = RTTP_definite_article_index }
+		# 	}
+
+		# 	change_variable = {
+		# 		name = RTTP_definite_article_index
+		# 		add = 1
+		# 		modulo = {
+		# 			value = scope:max_article_index
+		# 			add = 1
+		# 		}
+		# 	}
+		# }
+		# else = {
+		# 	set_variable = {
+		# 		name = RTTP_definite_article_index
+		# 		value = scope:initial_article_index
+		# 	}
+		# }
+
+		holder = {
+			add_piety = 1
 		}
+
+		# switch = {
+		# 	trigger = var:RTTP_definite_article_index
+		# 	0 = { set_title_prefix = RTTP_DEFINITE_ARTICLE_0 }
+		# 	1 = { set_title_prefix = RTTP_DEFINITE_ARTICLE_1 }
+		# 	2 = { set_title_prefix = RTTP_DEFINITE_ARTICLE_2 }
+		# 	3 = { set_title_prefix = RTTP_DEFINITE_ARTICLE_3 }
+		# 	4 = { set_title_prefix = RTTP_DEFINITE_ARTICLE_4 }
+		# 	5 = { set_title_prefix = RTTP_DEFINITE_ARTICLE_5 }
+		# 	6 = { set_title_prefix = RTTP_DEFINITE_ARTICLE_6 }
+		# 	7 = { set_title_prefix = RTTP_DEFINITE_ARTICLE_7 }
+		# }
 	}
 }
