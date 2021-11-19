@@ -1,4 +1,4 @@
 ﻿# Translation by MetaMeta (https://steamcommunity.com/id/MetaMetaSteam ).
 l_german:
- REMOVE_TITLE_PREFIX_REMOVE_TOOLTIP:0 "Vorsilbe vom Titel entfernen"
- REMOVE_TITLE_PREFIX_RESTORE_TOOLTIP:0 "Vorsilbe zum Titel hinzufügen"
+ REMOVE_TITLE_PREFIX_REMOVE_TOOLTIP:0 "Titelbezeichnung entfernen"
+ REMOVE_TITLE_PREFIX_RESTORE_TOOLTIP:0 "Titelbezeichnung hinzufügen"
