@@ -6,5 +6,5 @@ tags={
 }
 name="Remove Title Tier Prefix (Toggle Short Name)"
 picture="thumbnail.png"
-supported_version="1.4.4"
+supported_version="1.5.0.1"
 remote_file_id="2601437909"
